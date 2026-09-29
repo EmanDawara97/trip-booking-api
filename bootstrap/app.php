@@ -66,5 +66,5 @@ return Application::configure(basePath: dirname(__DIR__))
                 : $e->getMessage(),
         ], $status);
     });
-
+  
     })->create();
